@@ -377,7 +377,7 @@ struct femtoWorldPairTaskTrackD0 {
         if (!(IsParticleNSigma(p1.p(), p1.tpcNSigmaPr(), p1.tofNSigmaPr(), p1.tpcNSigmaPi(), p1.tofNSigmaPi(), p1.tpcNSigmaKa(), p1.tofNSigmaKa()))) {
           continue;
         }
-        
+
         mixedEventCont.setPair(p1, p2, collision1.multV0M());
       }
     }
