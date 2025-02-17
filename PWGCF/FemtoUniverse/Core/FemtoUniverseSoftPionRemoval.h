@@ -64,7 +64,7 @@ class FemtoUniverseSoftPionRemoval
       // Getting D0 (part2) children
       const auto& posChild = particles.iteratorAt(part2.index() - 2);
       const auto& negChild = particles.iteratorAt(part2.index() - 1);
-     // Pion and kaon masses
+      // Pion and kaon masses
       double massPion = o2::constants::physics::MassPiPlus;
       double massKaon = o2::constants::physics::MassKPlus;
       // D* reconstruction
